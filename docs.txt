@@ -1,1 +1,14 @@
 For microSD card: https://www.youtube.com/watch?v=yN1M8ZCN3x8
+
+pins 1,2 for I2C
+
+1 - Display: Bars for engine rev
+1 - master
+1 - Enigne RPM + prop shaft RPM
+1 - GPS
+5 (at max) - Accelerometer
+9 picos total
+
+code.py: Runs the code at boot
+
+Problem: Circuitpython cannot make an I2C slave, need to use C/C++ SDK
