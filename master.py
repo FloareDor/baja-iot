@@ -2,6 +2,7 @@
 	TODO:
 		Initialize I2C master
 		Display (this or seperate pico?)
+		make a function for writing to SDcard
 """
 
 import os
@@ -38,7 +39,9 @@ with open("/sd/testfile.txt", "r") as inputfile:
 	inputfile.close
 
 while True:
-	with open("/sd/temphistory.txt", "a") as appendfile:        
-		print(microcontroller.cpu.temperature, file=appendfile)
-	appendfile.close
-	sleep(5)
+	# with open("/sd/temphistory.txt", "a") as appendfile:
+	# 	print(microcontroller.cpu.temperature, file=appendfile)
+	# appendfile.close
+
+	
+	sleep(1)
