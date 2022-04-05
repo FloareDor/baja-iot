@@ -11,6 +11,7 @@ led.value = True
 
 # Rapid blinking: Not all devices connected
 def notAllDevicesConnected():
+	print("ERROR: Not all devives are connected! Check and try again!")
 	while(True):
 		led.value = not led.value
 		sleep(0.1)
@@ -23,6 +24,7 @@ def i2cNotWorking():
 
 # Mediumish blinking: Pull up resistor
 def i2cNoPullUp():
+	print("ERROR: No pull up resistor found")
 	while(True):
 		led.value = not led.value
 		sleep(0.5)

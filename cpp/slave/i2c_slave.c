@@ -94,7 +94,7 @@ int main()
 	gpio_put(LED_PIN, 1);
 
 	// Setup I2C1 as slave (peripheral)
-	i2c_init(i2c1, 100 * 1000);
+	i2c_init(i2c1, 400 * 1000);
 	i2c_set_slave_mode(i2c1, true, I2C1_PERIPHERAL_ADDR);
 
 	// Setup GPIO pins to use and add pull up resistors
