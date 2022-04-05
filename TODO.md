@@ -1,5 +1,5 @@
 ## I/O
-- [ ] I2C with OLED display (ssd1306) - Done! [Docs](https://learn.adafruit.com/micropython-hardware-ssd1306-oled-display/circuitpython)
+- [x] I2C with OLED display (ssd1306) - Done! [Docs](https://learn.adafruit.com/micropython-hardware-ssd1306-oled-display/circuitpython)
 - [ ] 20 x 4 LCD display
 
 ## Communication
