@@ -23,7 +23,7 @@
 #include "hardware/irq.h"
 
 // define I2C addresses to be used for this peripheral
-#define I2C1_PERIPHERAL_ADDR 0x31
+#define I2C1_PERIPHERAL_ADDR 0x32
 
 // GPIO pins to use for I2C
 #define GPIO_SDA1 14
